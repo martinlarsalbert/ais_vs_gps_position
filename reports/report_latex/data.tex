@@ -1,0 +1,24 @@
+\section*{DATA}\label{data}
+The data used in this study is described in
+Tab.\ref{tab:data_files}. There is one result with a pure FNPF
+simulation at 0 knots. For model test results, two tests are available
+at 0 knots and one test at 15.5 knots. There is also a result at 15.5
+with a hybrid method, where semi empirical viscosity has been injected
+into the FNPF calculations.
+\begin{table}[H]
+\scriptsize
+\center
+\caption{Data files}
+\label{tab:data_files}
+\begin{tabular}{|l|l|l|l|}
+\hline\addlinespace
+file & data file & Ship speed & Method\\
+&  & $[kts]$ & \\
+\hline1 & fnpf kvlcc2 rolldecay 0kn.csv & 0.0 & FNPF\\
+2 & model test 21337.csv & 0.0 & model test\\
+3 & model test 21338.csv & 0.0 & model test\\
+4 & model test 21340.csv & 15.5 & model test\\
+5 & fnpf kvlcc2 rolldecay 15-5kn ikeda dev.csv & 15.5 & hybrid\\
+\hline
+\end{tabular}
+\end{table}
