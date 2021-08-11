@@ -1,16 +1,4 @@
-# Welcome to your Jupyter Book
+# Introduction
+The Automatic Identification System (AIS) tracks the positions of ships. AIS transmits the ship's position measured by the Global Positioning System (GPS). Historical AIS data can be used to analyze the ship's operation. In this project, the traveled distance during a certain period should be measured with AIS, to be compared with measured fuel consumption (taken from another data source) to assess the ship's fuel economy. The ability to measure the distance with AIS is investigated in this report, as a prestudy to a later AIS analysis of fuel economy. The position of the ship is updated much less frequently than what the GPS is capable of. This means that the AIS will give a more coarse represenation of the ships trajectory, especially when either the speed or course of the ship is changing. The distance measured with the coarser AIS data is compared in this report, to the same distance measured with the finer GPS data which has been recorded onboard the ship.
 
-This is a small sample book to give you a feel for how book content is
-structured.
 
-:::{note}
-Here is a note!
-:::
-
-And here is a code block:
-
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
