@@ -6,3 +6,4 @@ root: intro
 chapters:
 - file: 02.01_analyze_time
 - file: 01.01_analyze_distance
+- file: 03.01_analyze_raw_AIS
